@@ -1,0 +1,34 @@
+<div class="row" >
+    <h4>User : </h4><h4 id="username"></h4>
+</div>
+<div class="row">
+    <div style=" width:12%; border-right: 0px solid black;margin-right:50px">
+        <ul>
+            <a href="#" onClick="window.homepage()"><li > Home </li></a>
+            <a href="#" onClick="window.searchquery()"><li> Query </li></a>
+            <a href="#" onClick="window.homepage()"><li> Messages </li></a>
+        </ul>
+        <h4><b>Follow : </b></h4>
+        <div class="row">
+            <input type="text" id="follow_id" class="form-control rounded-0" style="width: 80%;" placeholder="Search User">
+        </div>
+        <div class="row">
+            <button id="followbutton" type="button" onClick="window.follow()" style="padding-bottom: 10px; background-color:black;">Follow</button>
+        </div>
+        <h4><b>My Followers : </b></h4>
+        <div class="row">
+            <ul id='follower-list' style='list-style: none; max-height:400px; padding: 10px;overflow: scroll;width:70%;text-align: center;'></ul>
+        </div>
+    </div>
+    <div class= "row">
+        <div class="form-group" style=" width:60%;padding-right:50px" >
+            <input type="text" id="searchbox" class="form-control rounded-0" style="width: 80%;" placeholder="Search Hashtag or User Mentions">
+            <button id="tweetbutton" type="button" onClick="window.getquery()" style="padding-bottom: 40px; background-color:black;">Search</button>
+            <br><br><br>
+            <h4><b>Result : </b></h4>
+            <div class="row">
+                <ul id='result-list' style='list-style: none; max-height:500px;width:40%; padding: 10px;overflow: scroll;'></ul>
+            </div>
+        </div>
+    </div>
+</div>

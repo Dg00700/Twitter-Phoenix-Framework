@@ -1,0 +1,144 @@
+/* This file is for your main application css. */
+
+@import "./phoenix.css";
+.signupPart {
+    /*border: 1px #EAF5FC;
+    border-style: ridge;*/
+    padding: 5px;
+    text-align: justify;
+    margin-bottom: 50px;
+    margin: 10%;
+    width: 50%;
+    background-color: #EAF5FC;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    align: center;
+    border-radius: 10px;
+  }
+  
+  /*.dash{
+    border-style: ridge;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: justify;
+    width: 80%;
+  }*/
+  
+  /*.box {
+    display: inline-block;
+    padding: 5px;
+    vertical-align:justify;
+    margin: 0 auto;
+  }*/
+  
+  .prompt {
+      visibility: hidden;
+  }
+  
+  /*#signupPart {
+    border: 1px solid #F89406;
+    padding: 5px;
+    text-align: justify;
+    margin-bottom: 50px;
+  }*/
+  
+  .btncls:focus{
+    outline: 0 !important;
+  }
+  
+  .hiddenval {
+    visibility: hidden;
+  }
+  
+  /*html,
+  body {
+    height: 100%;
+    background-color: #4791D2;
+  }
+  body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }*/
+  
+  /*.row {
+    margin-top: 80px;
+  }*/
+  .headercls{
+    background-color: #F6F8FA;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .btncls {
+    color: #ffffff;
+    background-color: #64B2EE;
+    /*border: none;*/
+    border-radius: 100px;
+    border-style: none;
+    box-shadow: none;
+    font-size: 20px;
+    /*height: 30px;*/
+    line-height: 20px;
+    padding-top: 6px;
+    padding-right: 16px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+  .btncls:hover,
+  .btncls:active,
+  .btncls.active {
+    color: #ffffff;
+    background-color: #1DA1F2;
+    /*border: none;*/
+  }
+  
+  h4 {
+    padding-bottom: 30px;
+    color: #B8BDC1;
+  }
+  
+  h2 {
+    margin-top: 15px;
+    color: #68757E;
+  }
+  
+  /*.panel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }*/
+  /*table, th, td {
+      border: 1px solid black;
+  }*/
+  td, th {
+      text-align: left;
+      padding: 5px !important;
+      /*padding: px;*/
+  }
+  table{
+    background-color: #F6F8FA !important;
+    border-spacing: 10px !important;
+    border-radius: 20px !important;
+    border-collapse: initial !important;
+  }
+  
+  a:link {
+      text-decoration: none;
+  }
+  
+  a:visited {
+      text-decoration: none;
+  }
+  
+  a:hover {
+      text-decoration: none !important;
+  }
+  
+  a:active {
+      text-decoration: none !important;
+  }
+  textarea {
+      resize: none;
+      width: 100% !important;
+      height: 100px !important;
+  }

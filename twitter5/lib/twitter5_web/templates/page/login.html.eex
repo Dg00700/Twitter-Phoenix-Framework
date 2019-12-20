@@ -1,0 +1,20 @@
+<h1 style = "font: 'Times';color:#4169E1; font-weight: bold;font-size: 250%;"><center>Twitter Clone</center></h1>
+	<%# <div id='message-list' class='row'></div> %>
+	<div>
+    <center>
+		<div>
+			<div class="signupPart">
+				<center><h3>Join or Login</h3>
+				<p>
+						<input class= "tweetContent" id="username" placeholder = "Username" type="text"><br/>
+						<br/><input class= "tweetContent" id="password" placeholder = "*******" type="password"><br/>
+            <!-- <br/> <div id ='prompt' class="prompt"> result prompt </div> -->
+						<br/><button id="loginbutton" type="button" onClick="window.login()" class = 'btncls'>Login</button>
+              <button id="signupbutton" type="button" onClick="window.register()" class = 'btncls'>Signup</button>
+				</p>
+				</center>
+			</div>
+		</div>
+  </center>
+	</div>
+	</br>

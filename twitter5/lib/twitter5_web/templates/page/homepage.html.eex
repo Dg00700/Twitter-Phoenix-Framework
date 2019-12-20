@@ -1,0 +1,53 @@
+
+
+
+    <div class = "headercls">
+	<h1 style="text-align :center;font-family: 'Arial';color: #1DA1F2;">Twitter</h1>
+</div>
+<div class="row">
+        <ul>
+            <a href="#" onClick="window.homepage()"><li > Home </li></a>
+            <a href="#" onClick="window.searchquery()"><li> Query </li></a>
+            <a href="#" onClick="window.homepage()"><li> Messages </li></a>
+</div>
+	<table>
+	  <tr>
+			<td valign = "top">
+                <h4 style="font-weight: bold;">Hello User : </h4>
+                <h4 id="username" style="font-weight: bold;"></h4>
+				
+			</td>
+			<td margin-left = 5px>
+				<!-- <h1 style="text-align :center;font-family: 'Arial';color: #4791D2;">Twitter</h1> -->
+					<textarea rows = 5 id="tweetbox" placeholder="What's on your mind, " type="text"></textarea><br>
+					<button id="tweetbutton" type="button" onClick="window.tweet()" style="padding-bottom: 40px;">Tweet</button>
+			</td>
+	  </tr>
+		<tr>
+			<td valign = "top">
+				<table>
+				<tr>
+					<td>
+						<h3>Who to follow?</h3>
+						<input id="follow_id" class = "textbox" placeholder = "Search Username" type="text">
+		                    <button id="followbutton" type="button" onClick="window.follow()" class = 'btncls'>Follow</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h4><b>My Followers : </b></h4>
+        <div class="row">
+            <ul id='follower-list' style='list-style: none; max-height:400px; padding: 10px;overflow: scroll;width:70%;text-align: center;'></ul>
+        </div>
+
+				</tr>
+						</table>
+			</td>
+			<td>
+				<h3>Feed</h3>
+				<div class="row">
+                <ul id='tweet-list' style='list-style: none; max-height:500px; padding: 10px;overflow: scroll;'></ul>
+            </div>
+            </td>
+		</tr>
+	</table>
